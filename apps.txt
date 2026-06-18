@@ -18,6 +18,7 @@ DBeaver|dbeaver.dbeaver|dbeaver-ce|classic
 Sublime Text|SublimeHQ.SublimeText.4|sublime-text|classic
 Thunderbird|Mozilla.Thunderbird|thunderbird|
 Spotify|Spotify.Spotify|spotify|
+Node.js|OpenJS.NodeJS|node|classic
 Git Bash|Git.Git||
 GitHub CLI|GitHub.cli||
 Claude Code|Anthropic.ClaudeCode||
