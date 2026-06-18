@@ -1,0 +1,24 @@
+# The developer app pack. One line per app, and that's the only place to edit:
+# install-apps.sh installs from here, uninstall.sh removes from here.
+#
+#   name | winget id (Windows) | snap package (Linux) | classic
+#
+# - Leave a column blank to skip that OS.
+# - Put "classic" in the last column if the snap needs --classic confinement
+#   (snap tells you to when it does).
+# - Git, Claude Code and Docker have a blank snap column because Linux installs
+#   them their own way (apt / install script / Docker Engine), handled in
+#   install-apps.sh. On Windows they're plain winget installs, so they live here.
+#
+# Add an app: add a line. Remove one: delete the line. Both scripts follow.
+
+VS Code|Microsoft.VisualStudioCode|code|classic
+Bruno|Bruno.Bruno|bruno|
+DBeaver|dbeaver.dbeaver|dbeaver-ce|classic
+Sublime Text|SublimeHQ.SublimeText.4|sublime-text|classic
+Thunderbird|Mozilla.Thunderbird|thunderbird|
+Spotify|Spotify.Spotify|spotify|
+Git Bash|Git.Git||
+GitHub CLI|GitHub.cli||
+Claude Code|Anthropic.ClaudeCode||
+Docker Desktop|Docker.DockerDesktop||

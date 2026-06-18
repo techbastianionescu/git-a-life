@@ -1,0 +1,7 @@
+# Force LF line endings for shell scripts — avoids "\r: command not found"
+# errors when scripts written on Windows are run on Linux/Mac.
+*.sh text eol=lf
+bootstrap.sh text eol=lf
+
+# Configs consumed by Unix-y tools (oh-my-posh under Git Bash) stay LF
+*.json text eol=lf
